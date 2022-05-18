@@ -209,3 +209,75 @@ button:hover{
 .attribution{
     display: none;
 }
+
+
+/* For below 768px screen width */
+
+@media screen and (max-width: 768px){
+
+:root{
+
+    /* Font Size */
+
+    --font-size-large : 20px;
+    --font-size-medium : 14px;
+    --font-size-small :10px;
+    --font-size-micro : 8px;
+
+
+}
+
+h3{
+    line-height: 14px;
+}
+
+#request{
+
+    min-width: 300px;
+    min-height: 300px;
+    
+}
+
+#thanks{
+    min-width: 300px;
+    min-height: 300px;
+    
+}
+
+.number{
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: var(--font-size-small);
+}
+
+.star{
+    width: 35px;
+    height: 35px;
+}
+
+.imgStar{
+    width: 15px;
+    height: 15px;
+}
+
+button{
+    padding: 14px 0;
+    font-size: var(--font-size-small);
+}
+
+h1.thanks__message{
+    margin: 8px;
+}
+h3{
+    padding-top: 5px ;
+}
+
+.result{
+    padding: 3px 5px;
+}
+
+
+
+
+}
