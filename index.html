@@ -9,15 +9,15 @@
   <title>Frontend Mentor | Interactive rating component</title>
   <link rel="stylesheet" href="style.css">
   <script src="main.js" defer></script>
-  <script src="https://kit.fontawesome.com/43ede2213f.js" crossorigin="anonymous"></script>
+
 
 </head>
 <body>
 
   <!-- Rating state start -->
-  <section>
+  <section class="request">
     <div class="star">
-      <i class="fa-solid fa-star"></i>
+      <img src="./images/icon-star.svg" alt="star">
     </div>
     <h1 class="title">
       How did we do?
@@ -36,7 +36,6 @@
     <button class="submit">
       Submit
     </button>
-
   </section>
 
 
@@ -44,15 +43,24 @@
 
   <!-- Thank you state start -->
 
+  <section class="thanks">
+    <div class="img__wrap">
+      <img src="./images/illustration-thank-you.svg" alt="thank-you">
+    </div>
+    <div class="result">
+      You selected <!-- Add rating here --> out of 5
+    </div>
+    <h1 class="thanks__message">
+      Thank you!
+    </h1>
+    <h3 class="thanks__description">
+      We appreciate you taking the time to give a rating. If you ever need more support, 
+      don’t hesitate to get in touch!
+    </h3>
+  </section>
 
 
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
+  
   <!-- Thank you state end -->
 
   
