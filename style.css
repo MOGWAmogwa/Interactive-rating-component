@@ -150,7 +150,7 @@ button{
 }
 
 
-.number.colorChange{
+.number.active{
     color: white;
     background-color: var(--color-orange);
 }
